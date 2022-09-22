@@ -1,0 +1,19 @@
+.rodape {
+    background: #020381;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 336px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__logo{
+    width: 150px;
+    height: 50%;
+}
+
+.copyright{
+    padding-top: 3rem;
+    color: whitesmoke;
+}

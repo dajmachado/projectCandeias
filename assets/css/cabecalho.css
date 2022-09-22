@@ -1,0 +1,38 @@
+.caixa {
+    background: #020381;
+    padding: 1rem 0 1rem 0;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 5%;
+}
+
+.caixa__titulo{
+    width: 30%;
+}
+
+.logo-h{
+    width: 150px;
+}
+
+.itens__menu {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.item__menu--link {
+    font-size: 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.item__menu--link:hover {
+    text-decoration: underline;
+    color: aqua;
+}

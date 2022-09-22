@@ -1,0 +1,26 @@
+.informacao{
+display: flex;
+justify-content: space-around;
+}
+
+.informacao img{
+    width:45%;
+}
+
+.informacao__paragrafos {
+    width: 35%;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-indent: 1rem;
+    text-align: justify;
+
+}
+
+.titulo {
+    margin: 2rem auto 4rem auto;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
