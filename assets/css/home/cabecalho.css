@@ -1,0 +1,65 @@
+.caixa {
+    background: #020381;
+    padding: 1rem 0 1rem 0;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 5%;
+}
+
+.caixa__titulo{
+    width: 30%;
+}
+
+.logo-h{
+    width: 150px;
+}
+
+.itens__menu {
+    height: 90px;
+    align-items: flex-end   ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    width: 60%;
+}
+
+.item__menu--link {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.item__menu--link:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+@media screen and (max-width: 768px) {
+    .itens__menu {
+        flex-direction: column;
+        height: 130px;
+        justify-content: space-around;
+    }
+
+    .item__menu--link {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navegacao {
+        margin: auto 2%;
+    }
+
+    .item__menu--link{
+        padding: 0 0;
+    }
+}
